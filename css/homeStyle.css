@@ -1,0 +1,106 @@
+* {cursor: url(https://ani.cursors-4u.net/nature/nat-11/nat1054.cur), auto !important;}
+
+    /* LOGO */
+    .logo {
+   
+    color: coral;
+    text-shadow: -1px 0 rgb(216, 22, 22), 0 1px rgb(212, 51, 51), 1px 0 rgb(185, 53, 53), 0 -1px rgb(204, 45, 45);
+    }
+   
+    .navbarlogo{
+      text-align: center;
+      background-color: rgb(53, 188, 206);
+      padding: 10px;
+      font-family: cursive;
+      
+    }
+/* End of logo*/
+/*Navbar */
+#navlogo{
+  font-family: cursive;
+  position: sticky;
+  top: 0;
+ 
+}
+.nav-item{
+  font-size: 1.5rem;
+}
+.navimg{
+  border-radius: 10%;
+  width: 6%;
+}
+/*End of navbar*/
+/* Styling of inside the body*/
+.bodycolor {
+  background-color: rgb(125, 175, 175);
+}
+.image{
+    width: 80%;
+    border-radius: 25px;
+    height: 80%;
+}
+
+#intro{
+  font-family: "Audiowide", sans-serif;
+font-size: 40px;
+color: rgb(224, 72, 72);
+
+}
+#imgh1{
+  color: #c40d0d;
+  text-align: center;
+  font-family: cursive;
+  
+}
+.htmlpara{
+font-size: 110%;
+color: #cc148f;
+font-family: cursive;
+}
+
+
+/* End of styling of inside the body*/
+
+
+
+/* Start  Footer style */
+footer{
+  background-color: #24262b;
+}
+.footerh1{
+  color: #1ee96c;
+}
+
+.link{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+
+h4{
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 500;
+  position: relative;
+}
+
+h4::before{
+  content: '';
+  font-size: 20px;
+  position: absolute;
+  bottom: -10px;
+  background-color: #1ee96c;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+/* End of Footer style*/
+
+
